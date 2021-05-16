@@ -1,7 +1,7 @@
 from django.db import models
 #from django.contrib.auth.models import User
 from django.conf import settings
-from mamazon import Product
+from mamazon.models import Product
 
 User = settings.AUTH_USER_MODEL
 
